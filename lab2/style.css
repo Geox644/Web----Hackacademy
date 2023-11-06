@@ -1,0 +1,105 @@
+body {
+	background-color: lightblue;
+}
+
+.head {
+	/* TODO - set the head color */
+	background-color: grey;
+	/* TODO - make the man's head like a circle */
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+	margin: 0 auto; /* Center the head horizontally */
+}
+
+.all_body {
+	width: 100%;
+	height: 15vh;
+	text-align: center;
+}
+
+.left_hand {
+	/* TODO - set the left hand color */
+	background-color: grey;
+	width: 3vw;
+	height: 18vh;
+	display: inline-block; /* Make the hands display inline */
+	position: relative; /* Set relative position to the body */
+    bottom: 0;
+    transform-origin: top right;
+	animation-name: animation_1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+	/* TODO - set other properties of this animation */
+}
+
+.body {
+	/* TODO - set the man's body color */
+	background-color: purple;
+	width: 8vw;
+	height: 18vh;
+	display: inline-block;
+	position: relative;
+}
+
+.right_hand {
+	/* TODO - set the right hand color */
+	background-color: grey;
+	width: 3vw;
+	height: 18vh;
+	display: inline-block;
+	/* position: relative; */
+    transform-origin: top left;
+	animation-name: animation_2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+	/* TODO - set other properties of this animation */
+}
+
+.legs {
+	width: 100%;
+	height: 18vh;
+	text-align: center;
+}
+
+.left_leg {
+	/* TODO - set the left leg color */
+	background-color: grey;
+	width: 3.5vw;
+	height: 18vh;
+	display: inline-block;
+}
+
+.right_leg {
+	/* TODO - set the right leg color */
+	background-color: grey;
+	width: 3.5vw;
+	height: 18vh;
+	display: inline-block;
+}
+
+@keyframes animation_1 {
+	/* TODO - make an animation from 0% to 100% */
+	0% {
+		transform: rotate(0deg);
+	}
+    50% {
+        transform: rotate(120deg);
+    }
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes animation_2 {
+	/* TODO - make an animation with keywords "from" and "to" */
+    0% {
+		transform: rotate(0deg);
+	}
+    50% {
+        transform: rotate(-120deg);
+    }
+	100% {
+		transform: rotate(0deg);
+	}
+}
