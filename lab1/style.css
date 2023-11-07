@@ -1,0 +1,51 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(160, 103, 214);
+}
+
+.header {
+    /* Set the background color of the header section as you wish */
+    background-color: #672692;
+
+    width: 95%;
+    height: 20%;
+
+    /* Set the text color of the header section and align it to center */
+    color: white;
+    text-align: center;
+
+    margin: auto;
+    border: 2px solid #4a3757;
+    border-radius: 20px;
+}
+
+p {
+    font-size: large;
+}
+
+.body {
+    /* Set the background of the body section as a gradient starting or ending with the same color as in the header */
+    background: linear-gradient(to bottom, #672692, rgb(30, 112, 145));
+    width: 40%;
+    height: 70%;
+
+    /* Align the body div in the center and create a space between it and the header */
+    margin: 20px auto;
+
+    /* Set the distance between the text and the picture + the body section to a certain value - 20px (for example) */
+    padding: 20px;
+
+    /* Set the text color of the header section and align it as justify */
+    color: white;
+    text-align: justify;
+
+    /* Set the rounded borders having as an example the one in the header section */
+    border: 2px solid #666699;
+    border-radius: 20px;
+}
+
+/* Do not modify */
+.image {
+    /* You should search for the appropriate styling for the image on the internet or define your own styles. */
+}
