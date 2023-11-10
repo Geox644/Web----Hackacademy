@@ -1,0 +1,53 @@
+.myButton {
+    background-color: #44c767;
+    border-radius: 20px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+}
+
+/* Hover to change color */
+.myButton1:hover {
+    background-color: #2a88bf;
+}
+
+.myButton1:active {
+    position: relative;
+    top: 1px;
+}
+
+/* Click to change color */
+.myButton2:active {
+    background-color: pink;
+}
+
+/* Change color after visited */
+.myButton3:visited {
+    background-color: brown;
+}
+
+.myButton4:visited {
+    background-color: lightcoral;
+}
+
+/* Display new div after you hover the existing one */
+.hide {
+    display: none; /* Change 'none' to 'block' or 'inline' or the desired display value when you want to show it. */
+}
+
+.myMagicDiv:hover + .hide {
+    display: block;
+    color: rgb(199, 138, 68);
+}
+
+.myDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}

@@ -1,0 +1,97 @@
+<!-- Modify just the TODOs -->
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Laborator 3 page 1</title>
+<!-- TODO - link the existing stylesheet myStyle_page_1.css to the .html file -->
+<link rel="stylesheet" href="myStyle_page_1.css">
+</head>
+
+<body>
+    <!-- TODO - create the form -->
+    <form>
+        <!-- TODO - connect the fieldset with the coresponding CSS class 'fieldset_style' -->
+        <fieldset class="fieldset_style">
+                <!-- Text INPUT -->
+                <!-- TODO - create a section with the 'text' type of input elements for 'Nume' and 'Prenume' -->
+                <!-- TODO - create a label for 'Nume' and connect it with the input  -->
+                <!-- TODO - create the input for 'Nume' and connect it with the coresponding CSS id 'fname'  -->
+                <label for="fname">Nume:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Prenume:</label><br>
+                <input type="text" id="lname" name="lname">
+                <!-- TODO - do the same for 'Prenume' -->
+
+                <!-- Checkbox INPUT -->
+                <!-- TODO - create a section with the 'checkbox' type of input elements for 'Activitati preferate' and 'Limbaje preferate' -->
+                <p>Activitati preferate:</p>
+                <!-- <input type="checkbox" id="myCheckbox">
+                <label>Editat</label><br>
+                <input type="checkbox">
+                <label>Desenat</label><br>
+                <input type="checkbox">
+                <label>Seriale</label><br>
+                <input type="checkbox">
+                <label>Mangaiat pisica</label> -->
+                <input type="checkbox" id="activitate1">
+                <label for="activitate1">Editat</label><br>
+                <input type="checkbox" id="activitate2">
+                <label for="activitate2">Desenat</label><br>
+                <input type="checkbox" id="activitate3">
+                <label for="activitate3">Seriale</label><br>
+                <input type="checkbox" id="activitate4">
+                <label for="activitate4">Mangaiat pisica</label>
+                <!-- TODO - create an 'checkbox' type of input and link it to the label through the 'id' -->
+
+                <p>Limbaje preferate:</p>
+                <!-- TODO - create an 'checkbox' type of input and link it to the label through the 'id' -->
+                <input type="checkbox" id="limbaj1">
+                <label for="limbaj1">Rust</label><br>
+                <input type="checkbox" id="limbaj2">
+                <label for="limbaj2">C/C++</label><br>
+                <input type="checkbox" id="limbaj3">
+                <label for="limbaj3">Python</label><br>
+                <input type="checkbox" id="limbaj4">
+                <label for="limbaj4">Java</label>
+
+                <!-- Radio INPUT -->
+                <!-- TODO - create a section with the 'radio' type of input elements -->
+                <p> Sexul:</p>
+                <!-- TODO - create an 'radio' type of input and link it to the label through the 'id' -->
+                <!-- TODO - don't forget to add the SAME 'name' attribute to all the inputs-->
+
+                <input type="radio" id="Feminin" name="sexul">
+                <label>Feminin</label><br>
+
+                <input type="radio" id="Masculin" name="sexul">
+                <label>Masculin</label><br>
+
+                <input type="radio" id="Altele" name="sexul">
+                <label>Altele</label><br>
+                
+                <br>
+                
+                <!-- Dropdown list-->
+                <label for="facultate"> Alegeti facultatea: </label>
+                    <!-- TODO - create a 'select' element and connect it with the coresponding CSS id 'facultate' -->
+                    <select id="facultate" >
+                        <!-- TODO - inside the select element create three options for the dropdown list -->
+                        <option>-------</option>
+                        <option>Automatica si Calculatoare</option>
+                        <option>Medicina si farmacie</option>
+                        <option>Contailitate si informatica de gestiune</option>
+                        <option>Drept</option>
+                    </select>
+                
+                
+                <!-- Submit Button-->
+                <p>  <input type="submit" value="Submit">  </p>
+
+                
+                <!-- Reset Button-->
+                <!-- TODO - create a reset button -->
+                <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>

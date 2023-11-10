@@ -1,0 +1,20 @@
+#fname{
+    /*TODO - change the background color of the 'Name' input */
+    background-color: rgb(255, 185, 127);
+}
+
+#lname{
+    /*TODO - change the background color of the 'Prenume' input */
+    background-color: rgb(255, 185, 127);
+}
+
+#facultate{
+    /*TODO - change the background color of the dropdown list */
+    /* add more things if you want to customize it*/
+    background-color: rgb(255, 185, 127);
+}
+
+.fieldset_style{
+    background-color: antiquewhite;
+    border-color: brown;
+}

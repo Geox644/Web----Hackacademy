@@ -1,0 +1,21 @@
+.imagine {
+  /* TODO - add the background image */
+  background-image: url('image.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
+  height: 100vh;
+  /* TODO - center the image */
+  background-position: center;
+  /* TODO - set the size of the image to cover the page */
+  background-size: cover;
+  /* TODO - add animation to the image */
+  animation: loop 10s linear infinite;
+}
+
+@keyframes loop {
+  /* TODO - make an animation with keywords "from" and "to" */
+  from {
+      background-position: -150vw 0;
+  }
+  to {
+      background-position: 150vw 0;
+  }
+}
