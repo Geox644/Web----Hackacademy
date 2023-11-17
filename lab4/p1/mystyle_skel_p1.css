@@ -1,0 +1,68 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.ex1 {
+    width: 100vw;
+    height: 20vh;
+
+    background-color: aqua;
+
+    margin: auto;
+}
+
+.ex2 {
+    width: 100vw;
+    height: 20vh;
+
+    background-color: coral;
+    
+    margin: auto;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.ex {
+    width: 80vw;
+    height: 20vh;
+
+    background-color: rgb(78, 40, 78);
+    border-radius: 30px;
+
+    margin: auto;
+
+    text-align: center;
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+#header_1 {
+    color: red;
+
+    text-align: center;
+    padding: 4%;
+}
+
+#btn {
+    background-color: cornflowerblue;
+    width: 10%;
+    height: 30%;
+
+    margin: -40px -100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#paragraf {
+    text-align: center;
+}
