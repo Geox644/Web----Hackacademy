@@ -1,0 +1,88 @@
+html, body {
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.background {
+    background-image: url('Resurse/backGround1.jpg');
+    background-repeat: repeat-x;
+    background-size: 98% 100%;
+
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    animation: loop 10s linear infinite;
+}
+
+  
+  @keyframes loop {
+    /* TODO - make an animation with keywords "from" and "to" */
+    from {
+        background-position: 150vw 0;
+    }
+    to {
+        background-position: -150vw 0;
+    }
+  }
+
+.sonic {
+    background-image: url('Resurse/sonicCharacter.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    bottom: 1%;
+    left: 1%;
+    transition: background-image 0.3s ease;
+}
+
+.sonic.jumping {
+    background-image: url('Resurse/sonicJumping.png');
+}
+
+
+.buttons {
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    right: 5%;
+    top: 8%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.score {
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    right: 5%;
+    top: 5%;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+.obstacle {
+    background-image: url('Resurse/obstacol-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 8%;
+    height: 20%;
+    bottom: 10%;
+}
+
+@keyframes moveObstacle {
+    from {
+        right: -80%;
+    }
+    to {
+        right: 110%;
+    }
+}
